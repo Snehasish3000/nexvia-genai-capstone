@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+
+# Local configuration and secrets
+.env
+.env.*.local
+!.env.example
+
+# Runtime data and generated corpora
+**/data/*.sqlite3
+**/data/*.db
+**/sample-data/
+**/artifacts/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
