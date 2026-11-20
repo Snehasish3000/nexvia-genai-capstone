@@ -1,0 +1,602 @@
+[
+  {
+    "id": "q-001",
+    "question": "What is the maximum individual purchase a cost centre manager can approve?",
+    "reference": "A cost centre manager may approve an individual purchase up to and including USD 5,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "manager approval threshold"
+  },
+  {
+    "id": "q-002",
+    "question": "State the manager-level spending approval cap.",
+    "reference": "A cost centre manager may approve an individual purchase up to and including USD 5,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "manager approval threshold"
+  },
+  {
+    "id": "q-003",
+    "question": "At what purchase amount does manager approval stop being sufficient?",
+    "reference": "A cost centre manager may approve an individual purchase up to and including USD 5,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "manager approval threshold"
+  },
+  {
+    "id": "q-004",
+    "question": "Who can approve a purchase of USD 4,500 under the approval matrix?",
+    "reference": "A cost centre manager may approve an individual purchase up to and including USD 5,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "manager approval threshold"
+  },
+  {
+    "id": "q-005",
+    "question": "Which authority approves purchases between USD 5,001 and USD 25,000?",
+    "reference": "A department director must approve purchases from USD 5,001 through USD 25,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "director approval threshold"
+  },
+  {
+    "id": "q-006",
+    "question": "What is the director approval band?",
+    "reference": "A department director must approve purchases from USD 5,001 through USD 25,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "director approval threshold"
+  },
+  {
+    "id": "q-007",
+    "question": "Who must approve a purchase costing USD 18,000?",
+    "reference": "A department director must approve purchases from USD 5,001 through USD 25,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "director approval threshold"
+  },
+  {
+    "id": "q-008",
+    "question": "Give the minimum and maximum purchase values in the director approval tier.",
+    "reference": "A department director must approve purchases from USD 5,001 through USD 25,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "director approval threshold"
+  },
+  {
+    "id": "q-009",
+    "question": "Who approves a purchase above USD 25,000?",
+    "reference": "The Chief Financial Officer must approve purchases above USD 25,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "CFO approval threshold"
+  },
+  {
+    "id": "q-010",
+    "question": "What is the CFO spending approval trigger?",
+    "reference": "The Chief Financial Officer must approve purchases above USD 25,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "CFO approval threshold"
+  },
+  {
+    "id": "q-011",
+    "question": "Which approver is required for a USD 40,000 commitment?",
+    "reference": "The Chief Financial Officer must approve purchases above USD 25,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "CFO approval threshold"
+  },
+  {
+    "id": "q-012",
+    "question": "At what value does the CFO become the required approver?",
+    "reference": "The Chief Financial Officer must approve purchases above USD 25,000.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "CFO approval threshold"
+  },
+  {
+    "id": "q-013",
+    "question": "How long must finance and tax records be retained?",
+    "reference": "Finance and tax records must be retained for seven years after the relevant financial year closes.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "finance record retention"
+  },
+  {
+    "id": "q-014",
+    "question": "What is the records retention period measured from?",
+    "reference": "Finance and tax records must be retained for seven years after the relevant financial year closes.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "finance record retention"
+  },
+  {
+    "id": "q-015",
+    "question": "For how many years after financial year close are finance records kept?",
+    "reference": "Finance and tax records must be retained for seven years after the relevant financial year closes.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "finance record retention"
+  },
+  {
+    "id": "q-016",
+    "question": "State the retention duration for tax records.",
+    "reference": "Finance and tax records must be retained for seven years after the relevant financial year closes.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "finance record retention"
+  },
+  {
+    "id": "q-017",
+    "question": "What is the deadline for completing a verified data-subject deletion request?",
+    "reference": "A verified data-subject deletion request must be completed within 30 calendar days unless a legal hold or statutory retention obligation applies.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "data subject deletion"
+  },
+  {
+    "id": "q-018",
+    "question": "How many calendar days are allowed for a deletion request?",
+    "reference": "A verified data-subject deletion request must be completed within 30 calendar days unless a legal hold or statutory retention obligation applies.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "data subject deletion"
+  },
+  {
+    "id": "q-019",
+    "question": "What exceptions can override the ordinary deletion deadline?",
+    "reference": "A verified data-subject deletion request must be completed within 30 calendar days unless a legal hold or statutory retention obligation applies.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "data subject deletion"
+  },
+  {
+    "id": "q-020",
+    "question": "When may a verified deletion request be retained beyond 30 days?",
+    "reference": "A verified data-subject deletion request must be completed within 30 calendar days unless a legal hold or statutory retention obligation applies.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "data subject deletion"
+  },
+  {
+    "id": "q-021",
+    "question": "Which encryption standard is required for confidential data at rest?",
+    "reference": "Confidential information and personally identifiable information must be encrypted at rest using AES-256 or an organization-approved equivalent.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "encryption at rest"
+  },
+  {
+    "id": "q-022",
+    "question": "How must PII be protected when stored?",
+    "reference": "Confidential information and personally identifiable information must be encrypted at rest using AES-256 or an organization-approved equivalent.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "encryption at rest"
+  },
+  {
+    "id": "q-023",
+    "question": "What encryption algorithm does the policy specify for stored sensitive information?",
+    "reference": "Confidential information and personally identifiable information must be encrypted at rest using AES-256 or an organization-approved equivalent.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "encryption at rest"
+  },
+  {
+    "id": "q-024",
+    "question": "Name the at-rest encryption requirement for confidential information.",
+    "reference": "Confidential information and personally identifiable information must be encrypted at rest using AES-256 or an organization-approved equivalent.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "encryption at rest"
+  },
+  {
+    "id": "q-025",
+    "question": "What is the minimum TLS version for data in transit?",
+    "reference": "Data sent over a network must use TLS 1.2 or later.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "network encryption"
+  },
+  {
+    "id": "q-026",
+    "question": "Which transport security protocol version is required for network traffic?",
+    "reference": "Data sent over a network must use TLS 1.2 or later.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "network encryption"
+  },
+  {
+    "id": "q-027",
+    "question": "Can services use TLS 1.1 for data sent over a network?",
+    "reference": "Data sent over a network must use TLS 1.2 or later.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "network encryption"
+  },
+  {
+    "id": "q-028",
+    "question": "State the policy's minimum transport encryption version.",
+    "reference": "Data sent over a network must use TLS 1.2 or later.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "network encryption"
+  },
+  {
+    "id": "q-029",
+    "question": "What information is prohibited from being pasted into public AI services?",
+    "reference": "Employees must not paste customer PII, credentials, or confidential source code into public AI services.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "public AI PII restriction"
+  },
+  {
+    "id": "q-030",
+    "question": "May an employee paste customer PII into a public chatbot?",
+    "reference": "Employees must not paste customer PII, credentials, or confidential source code into public AI services.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "public AI PII restriction"
+  },
+  {
+    "id": "q-031",
+    "question": "Which sensitive data classes must not be submitted to public AI tools?",
+    "reference": "Employees must not paste customer PII, credentials, or confidential source code into public AI services.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "public AI PII restriction"
+  },
+  {
+    "id": "q-032",
+    "question": "Does the policy allow confidential source code to be entered into public AI services?",
+    "reference": "Employees must not paste customer PII, credentials, or confidential source code into public AI services.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "public AI PII restriction"
+  },
+  {
+    "id": "q-033",
+    "question": "How frequently must managers review privileged access?",
+    "reference": "Managers must review privileged and sensitive-data access quarterly.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "quarterly access review"
+  },
+  {
+    "id": "q-034",
+    "question": "What is the cadence for sensitive-data access reviews?",
+    "reference": "Managers must review privileged and sensitive-data access quarterly.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "quarterly access review"
+  },
+  {
+    "id": "q-035",
+    "question": "Who is responsible for reviewing privileged access, and how often?",
+    "reference": "Managers must review privileged and sensitive-data access quarterly.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "quarterly access review"
+  },
+  {
+    "id": "q-036",
+    "question": "State the required access review frequency.",
+    "reference": "Managers must review privileged and sensitive-data access quarterly.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "quarterly access review"
+  },
+  {
+    "id": "q-037",
+    "question": "How quickly must a suspected security incident be reported?",
+    "reference": "Suspected security incidents, lost devices, exposed credentials, and suspected data disclosure must be reported to the Security team within one hour of discovery.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "security incident escalation"
+  },
+  {
+    "id": "q-038",
+    "question": "Which team receives reports of exposed credentials?",
+    "reference": "Suspected security incidents, lost devices, exposed credentials, and suspected data disclosure must be reported to the Security team within one hour of discovery.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "security incident escalation"
+  },
+  {
+    "id": "q-039",
+    "question": "What is the incident reporting deadline after discovery?",
+    "reference": "Suspected security incidents, lost devices, exposed credentials, and suspected data disclosure must be reported to the Security team within one hour of discovery.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "security incident escalation"
+  },
+  {
+    "id": "q-040",
+    "question": "By when must a lost device be reported to Security?",
+    "reference": "Suspected security incidents, lost devices, exposed credentials, and suspected data disclosure must be reported to the Security team within one hour of discovery.",
+    "question_type": "factual",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "security incident escalation"
+  },
+  {
+    "id": "q-041",
+    "question": "A team plans a USD 20,000 purchase and wants to store customer PII in the resulting service. Which approval tier and at-rest protection apply?",
+    "reference": "A department director must approve a USD 20,000 purchase. Customer PII must be encrypted at rest using AES-256 or an organization-approved equivalent.",
+    "question_type": "multi_hop",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "multi-hop-policy-combination"
+  },
+  {
+    "id": "q-042",
+    "question": "An engineer remotely accesses a production system containing confidential source code. What two access and data controls apply?",
+    "reference": "Multi-factor authentication is mandatory for all remote access. Confidential information must be encrypted at rest using AES-256 or an organization-approved equivalent, and public AI services must not receive confidential source code.",
+    "question_type": "multi_hop",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "multi-hop-policy-combination"
+  },
+  {
+    "id": "q-043",
+    "question": "A finance record is subject to a verified deletion request while a legal hold exists. What are the ordinary deadline and exception?",
+    "reference": "The ordinary deadline is 30 calendar days, but a legal hold or statutory retention obligation can override the deletion schedule and must be documented by Legal.",
+    "question_type": "multi_hop",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "multi-hop-policy-combination"
+  },
+  {
+    "id": "q-044",
+    "question": "A production deployment is planned after code changes. What review, test and approval gates must pass?",
+    "reference": "A qualified engineer must peer-review the change, automated CI tests must pass, and the owning service lead must approve the production deployment.",
+    "question_type": "multi_hop",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "multi-hop-policy-combination"
+  },
+  {
+    "id": "q-045",
+    "question": "A manager wants to approve a USD 30,000 commitment by splitting it into smaller purchases. What does the policy require?",
+    "reference": "The Chief Financial Officer must approve purchases above USD 25,000, and splitting a purchase to avoid an approval threshold is prohibited; the aggregate commitment must be evaluated.",
+    "question_type": "multi_hop",
+    "answerable": true,
+    "role": "finance",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "multi-hop-policy-combination"
+  },
+  {
+    "id": "q-046",
+    "question": "A leaver still has privileged access and the manager's quarterly review is next month. What is the required access-change deadline?",
+    "reference": "Joiner, mover, and leaver access changes must be completed within 24 hours of the approved HR event; ordinary access reviews are quarterly.",
+    "question_type": "multi_hop",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "multi-hop-policy-combination"
+  },
+  {
+    "id": "q-047",
+    "question": "A suspected credential exposure is found in a remote environment. What is the reporting deadline and remote-access control?",
+    "reference": "The exposure must be reported to the Security team within one hour of discovery. Multi-factor authentication is mandatory for all remote access.",
+    "question_type": "multi_hop",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "multi-hop-policy-combination"
+  },
+  {
+    "id": "q-048",
+    "question": "A service transmits sensitive customer information and stores it on disk. Which encryption controls apply to each state?",
+    "reference": "Network transmission must use TLS 1.2 or later. Confidential information and PII must be encrypted at rest using AES-256 or an organization-approved equivalent.",
+    "question_type": "multi_hop",
+    "answerable": true,
+    "role": "engineering",
+    "expected_source": "nexvia_internal_policy.docx",
+    "fact_key": "multi-hop-policy-combination"
+  },
+  {
+    "id": "q-049",
+    "question": "What is the approved annual bonus percentage for Nexvia employees?",
+    "reference": "The provided policy does not specify employee bonus percentages.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  },
+  {
+    "id": "q-050",
+    "question": "Which cloud provider hosts Nexvia's production Kubernetes clusters?",
+    "reference": "The provided policy does not identify a cloud hosting provider.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  },
+  {
+    "id": "q-051",
+    "question": "What is the name of Nexvia's Chief Financial Officer?",
+    "reference": "The provided policy does not name the Chief Financial Officer.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  },
+  {
+    "id": "q-052",
+    "question": "What is the exact date of Nexvia's next board meeting?",
+    "reference": "The provided policy does not provide board meeting dates.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  },
+  {
+    "id": "q-053",
+    "question": "What is the company's approved travel meal allowance per day?",
+    "reference": "The provided policy does not specify travel meal allowances.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  },
+  {
+    "id": "q-054",
+    "question": "How many paid vacation days does an employee receive each year?",
+    "reference": "The provided policy does not define annual leave entitlement.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  },
+  {
+    "id": "q-055",
+    "question": "What is the production database's hostname and port?",
+    "reference": "The provided policy does not expose database hostnames or ports.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  },
+  {
+    "id": "q-056",
+    "question": "Which vendor provides Nexvia's endpoint detection software?",
+    "reference": "The provided policy does not name an endpoint detection vendor.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  },
+  {
+    "id": "q-057",
+    "question": "What was Nexvia's exact revenue in the most recently completed quarter?",
+    "reference": "The provided policy does not contain quarterly revenue figures.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  },
+  {
+    "id": "q-058",
+    "question": "What is the personal mobile number of the Security team lead?",
+    "reference": "The provided policy does not contain personal phone numbers.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  },
+  {
+    "id": "q-059",
+    "question": "How many software engineers currently work at Nexvia?",
+    "reference": "The provided policy does not state the current engineering headcount.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  },
+  {
+    "id": "q-060",
+    "question": "What is the internal code name for the next product launch?",
+    "reference": "The provided policy does not identify product launch code names.",
+    "question_type": "unanswerable",
+    "answerable": false,
+    "role": "guest",
+    "expected_source": null,
+    "fact_key": "not-in-corpus"
+  }
+]
