@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+workspace/*
+!workspace/.gitkeep
+evaluation/results/*.json
+evaluation/results/*.csv
+evaluation/results/*.md

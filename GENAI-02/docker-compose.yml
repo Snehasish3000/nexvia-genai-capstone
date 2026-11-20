@@ -1,0 +1,100 @@
+name: nexvia-genai-02
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: nexvia-genai-02-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: nexvia_agents
+      POSTGRES_USER: nexvia
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-nexvia_dev_password}
+    ports:
+      - "5433:5432"
+    volumes:
+      - agent_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nexvia -d nexvia_agents"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.62.0
+    container_name: nexvia-genai-02-jaeger
+    restart: unless-stopped
+    command: ["--collector.otlp.enabled=true"]
+    ports:
+      - "16686:16686"
+
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:0.112.0
+    container_name: nexvia-genai-02-otel-collector
+    restart: unless-stopped
+    command: ["--config=/etc/otelcol-contrib/config.yaml"]
+    volumes:
+      - ./otel-collector-config.yaml:/etc/otelcol-contrib/config.yaml:ro
+    ports:
+      - "4317:4317"
+      - "4318:4318"
+      - "9464:9464"
+    depends_on:
+      - jaeger
+
+  prometheus:
+    image: prom/prometheus:v2.55.1
+    container_name: nexvia-genai-02-prometheus
+    restart: unless-stopped
+    command: ["--config.file=/etc/prometheus/prometheus.yml", "--storage.tsdb.path=/prometheus"]
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    ports:
+      - "9090:9090"
+    depends_on:
+      - otel-collector
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nexvia-genai-02-app
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql://nexvia:${POSTGRES_PASSWORD:-nexvia_dev_password}@postgres:5432/nexvia_agents
+      OTEL_EXPORTER_OTLP_ENDPOINT: http://otel-collector:4318
+      WORKSPACE_DIR: /app/workspace
+    ports:
+      - "8010:8010"
+    volumes:
+      - agent_workspace:/app/workspace
+    depends_on:
+      postgres:
+        condition: service_healthy
+      jaeger:
+        condition: service_started
+      otel-collector:
+        condition: service_started
+
+  ui:
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    container_name: nexvia-genai-02-ui
+    restart: unless-stopped
+    environment:
+      API_BASE_URL: http://app:8010
+      API_ACCESS_TOKEN: ${API_ACCESS_TOKEN:-}
+      JAEGER_UI_URL: http://localhost:16686
+    ports:
+      - "8501:8501"
+    depends_on:
+      app:
+        condition: service_started
+
+volumes:
+  agent_postgres_data:
+  agent_workspace:
+  prometheus_data:
